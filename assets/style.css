@@ -1,0 +1,90 @@
+body, html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+  }
+
+  .mg-top {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+  }
+
+/**************** HEADER  **********/
+#navbar-white {
+    background-color: white !important;
+    box-shadow: 0px 5px 10px -5px #A4A4A4;
+}
+
+/**************** PAGE HOME **************/
+/* Nom du site + slogan */
+.name-slogan, .h1-title{
+    text-align: center;
+    padding: 20px 0 0px 0;
+    margin-top: 50px;
+}
+
+/* Cards */
+.btn-card, .btn-form, .btn-login{
+    border: none !important;
+    border-radius: none !important;
+    color: white !important;
+}
+
+.btn-card:hover, .btn-form:hover{
+    color: white !important;
+    background-color:  #B8E2A1 !important;
+}
+
+/* Green elements */
+.bg-footer, .btn-card, .btn-form{
+    background-color: #014204 !important;
+}
+.btn-form{
+     width: 300px;
+     border-radius: 0;
+}
+.text-center{
+    padding: 20px;
+}
+hr:not([size]) {
+    height: 3px;
+    margin: 10px 10%;
+}
+
+.fab{
+    font-size: 25px;
+}
+
+hr:not([size]).hr-shoppingList{
+        height: 2px;
+        margin: 10px 0%;
+}
+
+.form-check-input:checked {
+    background-color: #FB5A5A;
+    border-color: #FB5A5A;
+}
+/* *********** Forms ********** */
+.container-form{
+    width: 40vw;
+}
+.input-form{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+#width-input-form{
+    width : 452px;
+}
